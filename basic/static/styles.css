@@ -97,8 +97,39 @@ body {
     font-size: 16px;
 }
 
+nav {
+    border-bottom: 2px solid #dee2e6;
+}
+
 @media (max-width: 576px) {
     .profile-card {
-        width: 80%; /* Reduce to 30% width at max 576px */
+        width: 90%;
     }
+    .deetz-container {
+        width: 90%;
+    }
+    footer img {
+        width: 20px;
+        height: 100%;
+    }
+}
+
+.grey-border {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.card-full {
+    max-width: 280px;
+}
+
+.card-body h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+header h3 {
+    font-size: 30px;
+    font-weight: 600;
 }
