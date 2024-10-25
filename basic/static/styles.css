@@ -108,9 +108,19 @@ nav {
     .deetz-container {
         width: 90%;
     }
+}
+@media (max-width: 768px) {
     footer img {
-        width: 20px;
+        width: 60px;
         height: 100%;
+        align-items: right;
+        padding: 10px 10px;
+    }
+    #year-company-bottom, #logo-bottom, #links-bottom {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -132,4 +142,33 @@ nav {
 header h3 {
     font-size: 30px;
     font-weight: 600;
+}
+
+.btn-just-blue {
+    background-color: #2123a8;
+    border-color: #000255;
+    color: #fff;
+}
+
+.btn-just-blue:hover {
+    background-color: #000255;
+    border-color: #000255;
+    color: #fff;
+}
+
+.popover {
+    margin: 10px 10px 10px -20px !important;
+}
+
+.popover .popover-arrow {
+    display: none; /* Completely hides the arrow */
+}
+
+.popover .popover-body {
+    padding: 5px; /* Removes padding from the body */
+}
+
+textarea {
+    overflow-y: auto;
+    max-height: calc(1.5em * 4);
 }
