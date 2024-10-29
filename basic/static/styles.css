@@ -97,6 +97,11 @@ body {
     font-size: 16px;
 }
 
+.nav-item button {
+    font-weight: 600;
+    font-size: 16px;
+}
+
 nav {
     border-bottom: 2px solid #dee2e6;
 }
@@ -171,4 +176,15 @@ header h3 {
 textarea {
     overflow-y: auto;
     max-height: calc(1.5em * 4);
+}
+
+.figure-caption {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.profile-round-img {
+    width: 150px;
+    height: 150px;
 }
